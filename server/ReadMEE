@@ -1,0 +1,46 @@
+Tailwind CSS
+Flowbite React
+React router dom 
+Redux dev tools
+redux persist
+Firebase
+spinner
+
+run the fontend npm start dev
+run the backend nodemon api/index.js
+
+Using the Firebase in order to get signin through the google
+
+
+
+Problems Faced 
+1) Faced the problem of image uploading in the firebase storage and loading as it was showing 403 forbiden error in profile page
+
+2) Category feild was not allowing duplicate value as in mongo db indexes of mongo db atlas contains unique is true in category.
+
+Review Historical Changes: Check if there were any changes made to the schema or database configuration in the past that might have led to the creation of the unique index on the ctg field.
+
+Inspect MongoDB Atlas Configuration: Review the settings and configurations in MongoDB Atlas to see if there are any options or features that could be affecting index creation behavior.
+
+Experiment with Schema: Try experimenting with your Mongoose schema by explicitly specifying unique: false for the ctg field to see if MongoDB still creates a unique index on it. This can help determine if the unique index is being created due to default behavior or external factors. 
+
+3)   <div className='p-3 max-w-2xl mx-auto w-full post-content' dangerouslySetInnerHTML={{ __html: post && post.content}}
+        ></div> In PostPage due to gap after > and before </div> there should be no gap
+
+
+        
+
+
+
+
+
+
+
+
+working .................................
+If you  want to post something like create, seethe post route  update etc then first 
+1) We write it in post.route
+2) we write it in post controller and then use in FRONT-END
+
+
+When  We do post and create something then if we want to see the details that we have done post then we use the get like in comment.route  Post and get

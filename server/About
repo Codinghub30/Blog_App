@@ -1,0 +1,21 @@
+User Authentication: Learn how to implement secure user registration and login processes using strategies like password hashing and JSON Web Tokens.
+Master email, password, and OAuth authentication with JWT for secure user access.
+
+login and signup  Validation
+
+
+Account Login using Google account using firebase.
+
+Searching: Master the process of integrating a robust search functionality into your web application.
+
+File Upload: Understand how to allow users to upload files like profile pictures or post attachments securely and efficiently.
+
+Enable users to update their profile information such as username, email, profile picture, and password.
+
+Create a user-friendly profile management system that includes the ability to upload profile images and securely delete accounts. Implement JWT cookie validation
+
+
+
+
+
+

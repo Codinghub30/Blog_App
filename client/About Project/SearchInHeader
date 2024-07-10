@@ -1,0 +1,21 @@
+1) URLSearchParams is a built-in JavaScript class that provides methods and properties to work with the query string of a URL. It allows you to parse, manipulate, and stringify query parameters easily.
+
+ 2) A query string is a part of a URL (Uniform Resource Locator) that contains data to be passed to the server as key-value pairs. It appears after the question mark (?) in the URL and is composed of multiple parameters separated by ampersands (&).
+
+ ex:- Here's an example URL with a query string:
+
+https://example.com/search?q=apple&category=fruits&page=1.
+
+The base URL is https://example.com/search.
+The query string starts with ?.
+There are three parameters: q, category, and page.
+Each parameter is separated by an ampersand (&).
+Each parameter consists of a key and a value separated by an equal sign (=). For example, q=apple means the value of the q parameter is "apple".
+
+3) new URLSearchParams(location.search):
+location.search refers to the query string portion of the current URL. For example, in the URL https://example.com/search?query=hello, the query string is ?query=hello.
+new URLSearchParams() is a built-in JavaScript class that allows you to work with the query parameters of a URL.
+
+
+4)  How it works :-
+When i click on the search  and write anything and then SearchTerm state gets the written text in search bar

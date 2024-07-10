@@ -1,0 +1,13 @@
+1) I have genrated all the api from backend controller files and Tested Api Endpoints in Postman.
+
+
+When a client (like a web browser or a program making HTTP requests) sends a request to a server, it often includes various headers. One such header is Content-Type. This header informs the server about the type of data that is being sent in the body of the request.
+
+For example, if a client sends a POST request to a server with JSON data in the body, it includes a Content-Type header with the value application/json. This lets the server know that the data in the request body is in JSON format, so the server can parse it accordingly.
+
+Similarly, when a server sends a response back to the client, it can include a Content-Type header to indicate the type of data being returned. For instance, if the server is sending JSON data in the response body, it includes a Content-Type header with the value application/json so that the client knows how to interpret the data.
+
+In summary, the Content-Type header is crucial for both the client and the server to understand the format of the data being transmitted in HTTP requests and responses.
+
+
+
